@@ -30,24 +30,27 @@ class MyDocument extends Document {
           ></script>
         </Head>
         <body>
-          {/* Add your text here */}
           <header>
-            <h1>About YT Thumbnail Downloader</h1>
-            <p>
-              YT (You Thumbnail) YouTube thumbnail downloader allows you to
-              download YouTube thumbnails easily and quickly. It's an online
-              tool that doesn't require any app installation and is entirely
-              free for anyone to use.
-            </p>
+            {/* Your header content */}
           </header>
           <main>
-            {/* Your existing content */}
+            {/* Your main content */}
             <Main />
           </main>
           <footer>
-            {/* Additional sections of your website */}
+            <div style={{ backgroundColor: "#f0f0f0", padding: "20px" }}>
+              <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+                <h1>About YT Thumbnail Downloader</h1>
+                <p>
+                  YT (You Thumbnail) YouTube thumbnail downloader allows you to
+                  download YouTube thumbnails easily and quickly. It's an online
+                  tool that doesn't require any app installation and is entirely
+                  free for anyone to use.
+                </p>
+                {/* Add more content here */}
+              </div>
+            </div>
           </footer>
-          {/* End of your text */}
           <NextScript />
         </body>
       </Html>
