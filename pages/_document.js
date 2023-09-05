@@ -23,10 +23,31 @@ class MyDocument extends Document {
             href="/favicon/favicon-16x16.png"
           />
           <link rel="manifest" href="/favicon/site.webmanifest" />
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" data-ad-client="YOUR_ADSENSE_CLIENT_ID"></script>
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+            data-ad-client="YOUR_ADSENSE_CLIENT_ID"
+          ></script>
         </Head>
         <body>
-          <Main />
+          {/* Add your text here */}
+          <header>
+            <h1>About YT Thumbnail Downloader</h1>
+            <p>
+              YT (You Thumbnail) YouTube thumbnail downloader allows you to
+              download YouTube thumbnails easily and quickly. It's an online
+              tool that doesn't require any app installation and is entirely
+              free for anyone to use.
+            </p>
+          </header>
+          <main>
+            {/* Your existing content */}
+            <Main />
+          </main>
+          <footer>
+            {/* Additional sections of your website */}
+          </footer>
+          {/* End of your text */}
           <NextScript />
         </body>
       </Html>
