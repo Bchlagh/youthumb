@@ -5,6 +5,17 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <meta charSet="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta
+            name="description"
+            content="Download YouTube thumbnails easily and quickly with our online tool. It's free, fast, and simple to use."
+          />
+          <meta
+            name="keywords"
+            content="YouTube thumbnail downloader, download YouTube thumbnails, video cover images"
+          />
+          <title>About YT Thumbnail Downloader - Download YouTube Thumbnails</title>
           <link
             rel="apple-touch-icon"
             sizes="180x180"
@@ -28,52 +39,6 @@ class MyDocument extends Document {
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
             data-ad-client="YOUR_ADSENSE_CLIENT_ID"
           ></script>
-          <style>
-            {`
-              /* Define your modern styles here */
-              body {
-                font-family: Arial, sans-serif;
-                background-color: #f8f8f8;
-                color: #333;
-              }
-
-              header {
-                background-color: #007bff;
-                color: #fff;
-                padding: 20px;
-                text-align: center;
-              }
-
-              footer {
-                background-color: #f0f0f0;
-                padding: 40px 0;
-                color: #555;
-                text-align: center;
-              }
-
-              h1 {
-                font-size: 24px;
-                margin-bottom: 10px;
-                color: #333;
-              }
-
-              p {
-                font-size: 16px;
-                line-height: 1.6;
-                color: #555;
-              }
-
-              ul {
-                list-style-type: disc;
-                margin-left: 20px;
-              }
-
-              strong {
-                font-weight: bold;
-                color: #333;
-              }
-            `}
-          </style>
         </Head>
         <body>
           <header>
